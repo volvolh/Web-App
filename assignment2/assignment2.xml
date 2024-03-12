@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<customers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/annde/Desktop/assignment2/assignment_schema.xsd">
+	<customer custID="cust201">
+		<name title="Mr.">John wick</name>
+		<address><![CDATA[
+        999 Jacksonwille Ave
+         Miami, FL  99999
+         ]]></address>
+		<phone>(223) 431-7645</phone>
+		<email>mrwick@boomboom.net</email>
+		<orders>
+			<order orderID="or1001" orderBy="cust101">
+				<orderDate>2016-08-11</orderDate>
+				<items>
+					<item itemNumber="WM100DL">
+						<itemPrice saleItem="N">30.05</itemPrice>
+						<itemQty>1</itemQty>
+					</item>
+					<item itemNumber="WM101P">
+						<itemPrice saleItem="Y">19.90</itemPrice>
+						<itemQty>2</itemQty>
+					</item>
+				</items>
+			</order>
+		</orders>
+	</customer>
+	<customer custID="cust202">
+		<name title="Mr.">Pookesh K</name>
+		<address><![CDATA[
+         200 Whiskey Avenue
+         Sidemen, FL 20001
+         ]]></address>
+		<phone>(324) 999-9999</phone>
+		<email>pilla@pook.net</email>
+		<orders>
+			<order orderID="or1002" orderBy="cust102">
+				<orderDate>2017-08-01</orderDate>
+				<items>
+					<item itemNumber="WM100DL">
+						<itemPrice>29.95</itemPrice>
+						<itemQty>1</itemQty>
+					</item>
+					<item itemNumber="WM10PL">
+						<itemPrice>19.95</itemPrice>
+						<itemQty>1</itemQty>
+					</item>
+				</items>
+			</order>
+			<order orderID="or1003" orderBy="cust103">
+				<orderDate>2017-10-01</orderDate>
+				<items>
+					<item itemNumber="H115E">
+						<itemPrice saleItem="Y">24.90</itemPrice>
+						<itemQty>2</itemQty>
+					</item>
+					<item itemNumber="H115F">
+						<itemPrice saleItem="N">14.95</itemPrice>
+						<itemQty>1</itemQty>
+					</item>
+				</items>
+			</order>
+		</orders>
+	</customer>
+	<customer custID="cust103">
+		<name>Galaxy Far Away</name>
+		<address><![CDATA[
+         320 Ginger Garlic, Paste 30001
+         ]]></address>
+		<phone>(334) 666-6666</phone>
+		<orders>
+			<order orderID="or1003" orderBy="cust104">
+				<orderDate>2017-09-15</orderDate>
+				<items>
+					<item itemNumber="WM1E4P">
+						<itemPrice>78.90</itemPrice>
+						<itemQty>2</itemQty>
+					</item>
+				</items>
+			</order>
+		</orders>
+	</customer>
+</customers>
